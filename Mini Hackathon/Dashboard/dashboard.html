@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" href="style.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div id="color" class="container-fluid">
+          <a id="navbar" class="navbar-brand">Dashboard</a>
+          <form class="d-flex">
+            <a href="../Profile/profile.html" id="proBtn">Profile</a>
+           <a href="../Login/login.html" id="push">Logout</a>
+          </form>
+        </div>
+      </nav>
+    <div class="postBlog">
+        <input type="text" name="Title" id="title" placeholder="Title">
+        <textarea name="description" id="descrip" cols="80" rows="5" placeholder="What is in your mind"></textarea>
+        <button id="publishBtn">Publish Blog</button> 
+    </div>
+
+    <div id="send">
+        <!-- <div class="row">
+            <div class="leftcolumn">
+              <div class="card">
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Dec 7, 2017</h5>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p>Some text..</p>
+              </div>
+              <div class="card">
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Sep 2, 2017</h5> -->
+    </div>
+    <script type="module" src="dashboard.js"></script>
+</body>
+</html>

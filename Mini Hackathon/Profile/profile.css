@@ -1,0 +1,25 @@
+#old{
+    display: block;
+    margin: 10px;
+}
+#new{
+    display: block;
+    margin: 10px;
+}
+#repeat{
+    display: block;
+    margin: 10px;
+}
+#updateBtn{
+    margin: 10px;
+}
+#pp{
+    height: 150px;
+    width: 140px;
+    border-radius: 10px;
+}
+h1{
+    background-color: rgb(185, 120, 247);
+    box-shadow: 8px 10px 70px 1px rgb(64, 11, 114) ;
+    text-align: center;
+}
